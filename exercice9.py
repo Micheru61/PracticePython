@@ -35,6 +35,7 @@ def choix_player(nombre):
         nb_tentatives += 1
         return check_number(nb_player, nombre)
 
+
 def check_number(nb_player, nombre):
     if nb_player == nombre:
         print("Congratulations, you found the right number in {} attempts".format(nb_tentatives))
@@ -49,6 +50,7 @@ continuer = 'y'
 while continuer != "exit":
     nb_tentatives = 0
     nombre = random.randint(1,10)
+
     nb_choisi = 0
     print("\n====================================")
     while nb_choisi != nombre:
