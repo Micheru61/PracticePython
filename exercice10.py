@@ -39,3 +39,4 @@ print("a_random = {}".format(a_random))
 print("b_random = {}".format(b_random))
 
 print([i for i in set(a_random) if i in b_random])
+
